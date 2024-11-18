@@ -1,17 +1,17 @@
 # 1224800007_Santi_TugasJaringan
 
 ### *** Tugas 1 ****
-#### 1. Clone dari Github
-##### Clone Socket dari github dengan link https://github.com/ferryastika/socket-programming-simple-server-and-client
+#### 1. Clone Dari Github
+##### Clone socket dari github dengan link https://github.com/ferryastika/socket-programming-simple-server-and-client
 
 ![Gambar1](assets/clone_socket.jpg)
 
-#### 2. Test dari Client
+#### 2. Test Dari Client
 ##### Melakukan perintah make untuk mengaktifkan sisi client ataupun sisi server 
 ##### Mengirimkan karakter "A" dari sisi client
 ![Gambar1](assets/test_client.jpg)
 
-#### 3. Test dari Client
+#### 3. Test Dari Client
 ##### Respon sisi server terdapat penerimaan karakter "A"  yang dikirim dari sisi clinet
 ![Gambar1](assets/respon_server.jpg)
 
