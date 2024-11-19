@@ -16,11 +16,11 @@
 ![Gambar1](assets/respon_server.jpg)
 
 #### 4. Hasil Pengiriman Paket Pada Wireshark
-##### Terdapat beberapa baris paket yang terlihat pada wireshark ketika kita mengirimkan beberaoa kali pengiriman karakter pada sisi client
+##### Terdapat beberapa baris paket yang terlihat pada wireshark ketika kita mengirimkan beberapa kali pengiriman karakter pada sisi client
 ![Gambar1](assets/result_paket_wireshark.jpg)
 
 #### 5. Flow Graph Pada Pengiriman Paket
-##### Terdapat beberapa baris paket yang terlihat pada wireshark ketika kita mengirimkan beberaoa kali pengiriman karakter pada sisi client
+##### Terdapat Data Transfer dari paket. Hal ini dilihat dari [ACK] dan [PSH] flag pada flowgraph dibawah ini
 ![Gambar1](assets/flowgraph.jpg)
 
 ### *** TUGAS 2 ***
