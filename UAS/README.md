@@ -8,7 +8,7 @@ This document contains answers and explanations for questions based on the trace
 
 ### **1. What is the IP address and TCP port number used by your client computer (source) to transfer the file to `gaia.cs.umass.edu`?** (10%) 
 
-![Figure 1](assets/no1.png)
+![Figure 1](./assets/no1.png)
 
 ---
 
