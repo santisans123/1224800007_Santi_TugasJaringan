@@ -197,7 +197,7 @@ Note: Wireshark has a nice feature that allows you to plot the RTT for each of t
 
 ---
 
-*Video Presentasi:* [Link Google Drive]([https://drive.google.com](https://drive.google.com/file/d/1HPrAOWrQIYHtkXpMy0fPkyIbkOHO9p38/view?usp=drive_link))
+*Video Presentasi:* [Link Google Drive](https://drive.google.com/file/d/1HPrAOWrQIYHtkXpMy0fPkyIbkOHO9p38/view?usp=drive_link)
 
 ---
 
