@@ -8,7 +8,7 @@ This document contains answers and explanations for questions based on the trace
 
 ### **1. What is the IP address and TCP port number used by your client computer (source) to transfer the file to `gaia.cs.umass.edu`?** (10%) 
 
-![Figure 1](assets/no1.png)
+![Figure 1](assets/No1.png)
 
 ---
 
@@ -37,7 +37,7 @@ The TCP port number functions as a "door" on the client computer for network com
 ### **2. What does `gaia.cs.umass.edu` use the IP address and port number to receive the file?**  
 (Attach the screenshot of your Wireshark's display) (10%)
 
-![Figure 2](assets/no2.png)
+![Figure 2](assets/No2.png)
 
 ---
 
@@ -65,7 +65,7 @@ The TCP port number `80` is used by the server to communicate over the HTTP prot
 ### **3. What is the sequence number of the TCP SYN segment that is used to initiate the TCP connection between the client computer and `gaia.cs.umass.edu`? What is it in the segment that identifies the segment as a SYN segment?**  
 (Attach the screenshot of your Wireshark's display) (10%)
 
-![Figure 3](assets/no3.png)
+![Figure 3](assets/No3.png)
 
 ---
 
@@ -101,7 +101,7 @@ The TCP header includes a **Flags** section where various control bits indicate 
 ### **4. What is the sequence number of the SYN-ACK segment sent by `gaia.cs.umass.edu` to the client computer in reply to the SYN? What is the value of the ACKnowledgement field in the SYN-ACK segment? How did `gaia.cs.umass.edu` determine that value? What is it in the segment that identifies the segment as a SYN-ACK segment?**  
 (Attach the screenshot of your Wireshark's display) (10%)
 
-![Figure 4](assets/no4.png)
+![Figure 4](assets/No4.png)
 
 ---
 
@@ -148,7 +148,7 @@ is crucial for confirming the initiation of a connection between the client and 
 Note: To find the POST command, inspect the packet content field at the bottom of the Wireshark window and look for a segment with "POST" in its DATA field.  
 (Attach the screenshot of your Wireshark's display) (15%)
 
-![Figure 5](assets/no5.png)
+![Figure 5](assets/No5.png)
 
 ---
 
@@ -195,8 +195,8 @@ The sequence number of the TCP segment containing the HTTP POST command is criti
 What are the sequence numbers of the first six TCP connection segments (including the HTTP POST segment)? At what time was each segment sent? When was the ACK for each segment received? Given the difference between when each TCP segment was sent and when its acknowledgement was received, what is the RTT value for each of the six segments? What is the EstimatedRTT value (see page 237 in the textbook) after the receipt of each ACK? Assume that the value of the EstimatedRTT is equal to the measured RTT for the first segment, and then is computed using the EstimatedRTT equation on page 237 for all subsequent segments.  
 Note: Wireshark has a nice feature that allows you to plot the RTT for each of the TCP segments sent. Select a TCP segment in the “listing of captured packets” window that is being sent from the client to the gaia.cs.umass.edu server. Then select: Statistics -> TCP Stream Graph -> Round Trip Time Graph.
 
-![Figure 6a](assets/no6.png)  
-![Figure 6b](assets/no6b.png)  
+![Figure 6a](assets/No6.png)  
+![Figure 6b](assets/No6b.png)  
 
 ---
 
@@ -247,15 +247,15 @@ The EstimatedRTT is calculated using the formula:
 - **EstimatedRTT** = 0.875 * 0.0558 + 0.125 * 0.18964 = **0.0725**
 
 ### **Round Trip Time Graph**
-![Figure 6a](assets/no6c.png)  
-![Figure 6b](assets/no6d.png) 
+![Figure 6a](assets/No6c.png)  
+![Figure 6b](assets/No6d.png) 
 
 ---
 
 ### **7. What is the length of each of the first six TCP segments?**  
 (Attach the screenshot of your Wireshark's display) (15%)
 
-![Figure 7](assets/no7.png)
+![Figure 7](assets/No7.png)
 
 ---
 
