@@ -195,6 +195,8 @@ The sequence number of the TCP segment containing the HTTP POST command is criti
 What are the sequence numbers of the first six TCP connection segments (including the HTTP POST segment)? At what time was each segment sent? When was the ACK for each segment received? Given the difference between when each TCP segment was sent and when its acknowledgement was received, what is the RTT value for each of the six segments? What is the EstimatedRTT value (see page 237 in the textbook) after the receipt of each ACK? Assume that the value of the EstimatedRTT is equal to the measured RTT for the first segment, and then is computed using the EstimatedRTT equation on page 237 for all subsequent segments.  
 Note: Wireshark has a nice feature that allows you to plot the RTT for each of the TCP segments sent. Select a TCP segment in the “listing of captured packets” window that is being sent from the client to the gaia.cs.umass.edu server. Then select: Statistics -> TCP Stream Graph -> Round Trip Time Graph.
 
+![Video No6](1224800007_Santi_Video_No6.mp4)
+
 ![Figure 6a](assets/No6.png)  
 ![Figure 6b](assets/No6b.png)  
 
